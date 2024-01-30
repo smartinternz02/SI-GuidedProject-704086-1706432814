@@ -9,6 +9,14 @@
    <dataFileGUID>d31f5320-1bb3-4fb8-8d85-73e7b471286f</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
+   <data>Tokyo+CURA+Healthcare+Center</data>
+   <data>Hongkong+CURA+Healthcare+Center</data>
+   <data>Seoul+CURA+Healthcare+Center</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>Healthcare Facility</name>
+      <size>3</size>
+   </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
