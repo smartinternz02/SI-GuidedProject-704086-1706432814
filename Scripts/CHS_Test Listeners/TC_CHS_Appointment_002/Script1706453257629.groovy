@@ -17,3 +17,34 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//WebUI.openBrowser('')
+//WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
+//WebUI.click(findTestObject('CHS_Appointment_OR/Page_CURA Healthcare Service/a_Make Appointment'))
+//WebUI.setText(findTestObject('Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_username'), 'John Doe')
+//WebUI.setEncryptedText(findTestObject('Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+//WebUI.click(findTestObject('Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/button_Login'))]
+WebUI.selectOptionByValue(findTestObject('Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
+    'Hongkong CURA Healthcare Center', true)
+
+CustomKeywords.'dropdown.customFunctiions.CheckDropDownListElementExists'(findTestObject('CHS_Appointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
+    'Tokyo CURA Healthcare Center')
+
+WebUI.click(findTestObject('Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_hospital_readmission'))
+
+WebUI.verifyElementChecked(findTestObject('CHS_Appointment_OR/Page_CURA Healthcare Service/input_hospital_readmission'), 
+    0)
+
+WebUI.click(findTestObject('Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_programs'))
+
+WebUI.verifyElementClickable(findTestObject('CHS_Appointment_OR/Page_CURA Healthcare Service/input_programs'))
+
+WebUI.click(findTestObject('Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar'))
+
+WebUI.click(findTestObject('Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/th_'))
+
+WebUI.click(findTestObject('Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/td_29'))
+
+WebUI.setText(findTestObject('Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/textarea_comment'), 'Test')
+
+WebUI.click(findTestObject('Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/button_Book Appointment'))
+

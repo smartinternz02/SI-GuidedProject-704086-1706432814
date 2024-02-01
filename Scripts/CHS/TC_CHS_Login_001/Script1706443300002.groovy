@@ -21,14 +21,18 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
-WebUI.click(findTestObject('Object Repository/CHS_Login_OR/Page_CURA Healthcare Service/a_Make Appointment'))
+WebUI.click(findTestObject('Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/amenu-toggle'))
 
-WebUI.setText(findTestObject('Object Repository/CHS_Login_OR/Page_CURA Healthcare Service/input_username'), 'John Doe')
+WebUI.click(findTestObject('Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/a_Login'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/CHS_Login_OR/Page_CURA Healthcare Service/input_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+WebUI.setText(findTestObject('Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/input_username'), 'John Doe')
 
-WebUI.click(findTestObject('Object Repository/CHS_Login_OR/Page_CURA Healthcare Service/button_Login'))
+WebUI.setEncryptedText(findTestObject('Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/input_password'), 
+    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/CHS_Login_OR/Page_CURA Healthcare Service/h2_Make Appointment'), 
-    0)
+WebUI.click(findTestObject('Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/button_Login'))
+
+WebUI.verifyElementPresent(findTestObject('CHS_Login_OR/Page_CURA Healthcare Service/h2_Make Appointment'), 0)
+
+WebUI.closeBrowser()
 
