@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>a4ffa021-c981-4356-addd-f2f77f21c945</dataFileGUID>
-   <dataSourceUrl>/Users/jithujoji/git/SI-GuidedProject-704086-1706432814/Facility_Excel_DDT.xlsx</dataSourceUrl>
+   <dataSourceUrl>/Users/jithujoji/git/SI-GuidedProject-704086-1706432814/Katalon Project Documents/Facility_Excel_DDT.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

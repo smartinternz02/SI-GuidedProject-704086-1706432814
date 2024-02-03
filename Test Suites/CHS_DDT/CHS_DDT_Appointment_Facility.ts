@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>1c5aedd4-6de1-4c24-86bb-f11cf4e4348a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <iterationNameVariable>
          <defaultValue>''</defaultValue>
          <description></description>
