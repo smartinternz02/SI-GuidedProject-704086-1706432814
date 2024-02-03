@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-CHS_TL_Appointment,Chrome 121.0.0.0,,,30-01-2024 11:54:12,30-01-2024 11:56:37,2m - 25.103s,FAILED
-,,,,,,,
-Test Cases/CHS_Test Listeners/TC_CHS_Appointment_002,Chrome 121.0.0.0,,,30-01-2024 11:56:37,30-01-2024 11:56:37,0.093s,FAILED
-Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 11:56:37,30-01-2024 11:56:37,0.028s,ERROR
-"selectOptionByValue(findTestObject(""Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 121.0.0.0,,,30-01-2024 11:56:37,30-01-2024 11:56:37,0.030s,FAILED
-Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 11:56:37,30-01-2024 11:56:37,0.027s,ERROR

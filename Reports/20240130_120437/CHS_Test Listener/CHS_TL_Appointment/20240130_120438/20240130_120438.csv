@@ -1,7 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-CHS_TL_Appointment,Chrome 121.0.0.0,,,30-01-2024 12:04:39,30-01-2024 12:06:32,1m - 52.439s,FAILED
-,,,,,,,
-Test Cases/CHS_Test Listeners/TC_CHS_Appointment_002,Chrome 121.0.0.0,,,30-01-2024 12:06:32,30-01-2024 12:06:32,0.095s,FAILED
-Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,30-01-2024 12:06:32,30-01-2024 12:06:32,0.029s,ERROR
-"click(findTestObject(""CHS_Appointment_OR/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 121.0.0.0,,,30-01-2024 12:06:32,30-01-2024 12:06:32,0.029s,FAILED
-Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,30-01-2024 12:06:32,30-01-2024 12:06:32,0.030s,ERROR
