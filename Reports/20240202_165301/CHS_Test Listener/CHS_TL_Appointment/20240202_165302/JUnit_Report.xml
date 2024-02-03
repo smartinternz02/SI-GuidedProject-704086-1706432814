@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CHS_TL_Appointment" time="15.249" tests="1" failures="0" errors="0">
+   <testsuite name="CHS_TL_Appointment" tests="1" failures="0" errors="0" time="15.249" skipped="0" timestamp="02-02-2024T16:53:03" hostname="jithujoji - localhost" id="Test Suites/CHS_Test Listener/CHS_TL_Appointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/jithujoji/git/SI-GuidedProject-704086-1706432814/Reports/20240202_165301/CHS_Test Listener/CHS_TL_Appointment/20240202_165302"/>
+         <property name="logFiles" value="/Users/jithujoji/git/SI-GuidedProject-704086-1706432814/Reports/20240202_165301/CHS_Test Listener/CHS_TL_Appointment/20240202_165302/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jithujoji - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="ac542808654f195318895f2c5605e3cd"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/CHS_Test Listeners/TC_CHS_Appointment_002" time="9.558" classname="Test Cases/CHS_Test Listeners/TC_CHS_Appointment_002" status="PASSED">
+         <system-out><![CDATA[02-02-2024T16:53:09 - [TEST_CASE][PASSED] - Test Cases/CHS_Test Listeners/TC_CHS_Appointment_002: Test Cases/CHS_Test Listeners/TC_CHS_Appointment_002
+
+02-02-2024T16:53:09 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+02-02-2024T16:53:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_username'
+
+02-02-2024T16:53:10 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_username'
+
+02-02-2024T16:53:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_password'
+
+02-02-2024T16:53:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_password'
+
+02-02-2024T16:53:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+02-02-2024T16:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/button_Login' is clicked on
+
+02-02-2024T16:53:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+02-02-2024T16:53:12 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+02-02-2024T16:53:12 - [TEST_STEP][PASSED] - dropdown.customFunctiions.CheckDropDownListElementExists(findTestObject("CHS_Appointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Tokyo CURA Healthcare Center"): dropdown.customFunctiions.CheckDropDownListElementExists is PASSED
+
+02-02-2024T16:53:12 - [MESSAGE][PASSED] - Found web element by test object Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107
+
+02-02-2024T16:53:12 - [MESSAGE][PASSED] - dropdown.customFunctiions.CheckDropDownListElementExists is PASSED
+
+02-02-2024T16:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_hospital_readmission")): Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_hospital_readmission' is clicked on
+
+02-02-2024T16:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_hospital_readmission' is clicked on
+
+02-02-2024T16:53:12 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("CHS_Appointment_OR/Page_CURA Healthcare Service/input_hospital_readmission"), 0): Object 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_hospital_readmission' is checked
+
+02-02-2024T16:53:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T16:53:13 - [MESSAGE][PASSED] - Object 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_hospital_readmission' is checked
+
+02-02-2024T16:53:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_programs")): Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_programs' is clicked on
+
+02-02-2024T16:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_programs' is clicked on
+
+02-02-2024T16:53:13 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("CHS_Appointment_OR/Page_CURA Healthcare Service/input_programs")): Object 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_programs' is clickable
+
+02-02-2024T16:53:13 - [MESSAGE][PASSED] - Object 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/input_programs' is clickable
+
+02-02-2024T16:53:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar")): Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+02-02-2024T16:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/span_glyphicon glyphicon-calendar' is clicked on
+
+02-02-2024T16:53:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/th_")): Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/th_' is clicked on
+
+02-02-2024T16:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/th_' is clicked on
+
+02-02-2024T16:53:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/td_29")): Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/td_29' is clicked on
+
+02-02-2024T16:53:14 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/td_29' is clicked on
+
+02-02-2024T16:53:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/textarea_comment"), "Test"): Text 'Test' is set on object 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/textarea_comment'
+
+02-02-2024T16:53:15 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/textarea_comment'
+
+02-02-2024T16:53:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-02-2024T16:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Appointment_OR/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+02-02-2024T16:53:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Object 'Object Repository/CHS_Logout_OR/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' is present
+
+02-02-2024T16:53:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Logout_OR/Page_CURA Healthcare Service/amenu-toggle")): Object: 'Object Repository/CHS_Logout_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+02-02-2024T16:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Logout_OR/Page_CURA Healthcare Service/amenu-toggle' is clicked on
+
+02-02-2024T16:53:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/CHS_Logout_OR/Page_CURA Healthcare Service/a_Logout")): Object: 'Object Repository/CHS_Logout_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+02-02-2024T16:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/CHS_Logout_OR/Page_CURA Healthcare Service/a_Logout' is clicked on
+
+02-02-2024T16:53:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/CHS_Logout_OR/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85"), 0): Object 'Object Repository/CHS_Logout_OR/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' is present
+
+02-02-2024T16:53:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+02-02-2024T16:53:19 - [MESSAGE][PASSED] - Object 'Object Repository/CHS_Logout_OR/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-02-2024T16:53:03 - [TEST_SUITE][PASSED] - CHS_TL_Appointment: Test Cases/CHS_Test Listeners/TC_CHS_Appointment_002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

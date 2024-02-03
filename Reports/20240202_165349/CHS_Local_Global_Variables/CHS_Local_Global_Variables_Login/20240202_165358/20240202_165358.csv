@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+CHS_Local_Global_Variables_Login,Chrome 121.0.0.0,,,02-02-2024 16:56:08,02-02-2024 16:56:24,15.953s,PASSED
+,,,,,,,
+Test Cases/CHS_Local and Global Variable/TC_CHS_Login_001 Local,Chrome 121.0.0.0,,,02-02-2024 16:56:08,02-02-2024 16:56:16,8.428s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 16:56:08,02-02-2024 16:56:08,0.135s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,02-02-2024 16:56:08,02-02-2024 16:56:09,1.227s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,02-02-2024 16:56:09,02-02-2024 16:56:12,3.075s,PASSED
+"click(findTestObject(""Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 121.0.0.0,,,02-02-2024 16:56:12,02-02-2024 16:56:13,0.292s,PASSED
+"click(findTestObject(""Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/a_Login""))",Chrome 121.0.0.0,,,02-02-2024 16:56:13,02-02-2024 16:56:14,0.881s,PASSED
+"setText(findTestObject(""Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/input_username""), Username)",Chrome 121.0.0.0,,,02-02-2024 16:56:14,02-02-2024 16:56:14,0.792s,PASSED
+"setText(findTestObject(""Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/input_password""), Password)",Chrome 121.0.0.0,,,02-02-2024 16:56:14,02-02-2024 16:56:15,0.513s,PASSED
+"click(findTestObject(""Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,02-02-2024 16:56:15,02-02-2024 16:56:16,0.877s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Chrome 121.0.0.0,,,02-02-2024 16:56:16,02-02-2024 16:56:16,0.459s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,02-02-2024 16:56:16,02-02-2024 16:56:16,0.091s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 16:56:16,02-02-2024 16:56:16,0.024s,ERROR
+,,,,,,,
+Test Cases/CHS_Local and Global Variable/TC_CHS_Login_001 Global,Chrome 121.0.0.0,,,02-02-2024 16:56:16,02-02-2024 16:56:24,7.466s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,02-02-2024 16:56:16,02-02-2024 16:56:16,0.016s,ERROR
+"openBrowser("""")",Chrome 121.0.0.0,,,02-02-2024 16:56:16,02-02-2024 16:56:17,0.610s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 121.0.0.0,,,02-02-2024 16:56:17,02-02-2024 16:56:20,3.096s,PASSED
+"click(findTestObject(""Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/amenu-toggle""))",Chrome 121.0.0.0,,,02-02-2024 16:56:20,02-02-2024 16:56:20,0.274s,PASSED
+"click(findTestObject(""Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/a_Login""))",Chrome 121.0.0.0,,,02-02-2024 16:56:20,02-02-2024 16:56:21,0.919s,PASSED
+"setText(findTestObject(""Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/input_username""), Username)",Chrome 121.0.0.0,,,02-02-2024 16:56:21,02-02-2024 16:56:22,0.708s,PASSED
+"setText(findTestObject(""Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/input_password""), Password)",Chrome 121.0.0.0,,,02-02-2024 16:56:22,02-02-2024 16:56:23,0.511s,PASSED
+"click(findTestObject(""Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/button_Login""))",Chrome 121.0.0.0,,,02-02-2024 16:56:23,02-02-2024 16:56:23,0.945s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/CHS_DD_Login_OR/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Chrome 121.0.0.0,,,02-02-2024 16:56:23,02-02-2024 16:56:24,0.248s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,02-02-2024 16:56:24,02-02-2024 16:56:24,0.088s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,02-02-2024 16:56:24,02-02-2024 16:56:24,0.014s,ERROR
